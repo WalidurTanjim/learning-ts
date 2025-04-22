@@ -1,7 +1,11 @@
 "use strict";
-let fName = "Walidur";
-let lName = "Tanjim";
-let fullName = "Walidur Tanjim";
-let age = 24;
-let isMarried = false;
-console.log(fName, lName, fullName, age, isMarried);
+// let fName: string = "Walidur";
+// let lName: string = "Tanjim";
+// let fullName: string = "Walidur Tanjim";
+// let age: number = 24;
+// let isMarried: boolean = false;
+// console.log(fName, lName, fullName, age, isMarried);
+const sumFn = (a, b) => {
+    return a + b;
+};
+console.log(sumFn(5, 10));
