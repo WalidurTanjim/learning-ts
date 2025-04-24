@@ -62,4 +62,4 @@ if(fName === lName){
 let product: string = "Laptop";
 let price: number = 45000;
 let productInfo: string = `Product ${product} is priced at ${price} bangladeshi taka`;
-console.log(productInfo);
+// console.log(productInfo);

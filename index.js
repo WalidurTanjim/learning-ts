@@ -51,4 +51,4 @@ else {
 let product = "Laptop";
 let price = 45000;
 let productInfo = `Product ${product} is priced at ${price} bangladeshi taka`;
-console.log(productInfo);
+// console.log(productInfo);
