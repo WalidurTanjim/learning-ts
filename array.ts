@@ -14,3 +14,28 @@ const numsArray1: number[] = new Array(1, 2, 3, 4, 5);
 const namesArray: string[] = Array.of('Walid', 'Tanjim');
 
 // console.log(numsArray, numsArray1, namesArray[1]);
+
+// Ex-04:
+const fruits: string[] = ["apple", "orange", "banana", "mango", "lichi"];
+const newFruit = fruits.push("Water melon");
+// console.log(newFruit);
+// console.log(fruits);
+const lastDataRemove = fruits.pop()
+// console.log(fruits);
+
+
+
+// for loop
+// for(let i = 0; i < fruits.length; i++){
+//     console.log(fruits[i]);
+// }
+
+
+// for of loop
+// for(const fruit of fruits) {
+//     console.log(fruit)
+// }
+
+
+// forEach method
+// fruits.forEach((currentFruit: string) => console.log(currentFruit));
