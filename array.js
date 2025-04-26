@@ -49,3 +49,19 @@ const filterEvenNumbers = numsArray.filter((currentNumber) => currentNumber % 2 
 // Ex-(2):
 const numberBiggerThenThree = numsArray.filter((currentNumber) => currentNumber > 3);
 // console.log("Number is bigger then three:", numberBiggerThenThree);
+// Homework tasks:
+// Homework task for map:
+// Task-01:
+const upperCaseFruits = fruits.map((currentFruit) => currentFruit.toUpperCase());
+// console.log(upperCaseFruits);
+// Task-02:
+const squareOfEachNumber = numsArray.map((currentNumber) => currentNumber * currentNumber);
+// console.log(squareOfEachNumber);
+// Hoework task for filter:
+// Task-01:
+const biggerStringArray = ['I am Walid', 'My name is Walid', "My father's name is Mustafizur rahman", 'I live in dhaka of bd', "You are so good", "We are going to Tangail"];
+const biggerThanFifteen = biggerStringArray.filter((currentStr) => currentStr.length > 19);
+// console.log(biggerThanFifteen);
+// Task-02:
+const startsACertainLetter = biggerStringArray.filter((currentStr) => currentStr.startsWith("Y"));
+// console.log(startsACertainLetter);
