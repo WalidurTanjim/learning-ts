@@ -30,7 +30,7 @@ const loginUserTwo:LoginDetails = {
     role: Roles.user
 }
 
-const isAdmin = ( user:LoginDetails ) => {
+const isAdmin = ( user:LoginDetails ): string => {
     const { name, email, role } = user;
     return role === "admin" ? `${name} is allow to edit the website` : `${name} is not allow to edit the website`;
 }
