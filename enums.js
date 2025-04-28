@@ -20,9 +20,9 @@ const loginUserTwo = {
     password: "asdf,1234",
     role: Roles.user
 };
-const isAdmin = (loginUserOne) => {
-    const { name, email, role } = loginUserOne;
+const isAdmin = (user) => {
+    const { name, email, role } = user;
     return role === "admin" ? `${name} is allow to edit the website` : `${name} is not allow to edit the website`;
 };
-console.log(isAdmin(loginUserOne));
-console.log(isAdmin(loginUserTwo));
+// console.log(isAdmin(loginUserOne))
+// console.log(isAdmin(loginUserTwo))
