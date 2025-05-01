@@ -35,4 +35,4 @@ const displayWeather = (weather) => {
         console.log(`${name} temp:: ${temp}`);
     }
 };
-displayWeather(Weather_01);
+// displayWeather(Weather_01);
