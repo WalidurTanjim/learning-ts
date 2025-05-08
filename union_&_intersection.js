@@ -20,9 +20,6 @@ const employee = {
     emp_id: 111,
     department: "Web Developer"
 };
-const createUserProfile = (User, MyLocation) => {
-    return `User name is: ${User?.name} from ${MyLocation?.city}`;
-};
 const userDls = {
     name: "Tanjim",
     age: 24
@@ -32,4 +29,20 @@ const userLcn = {
     district: "tangail",
     country: "bangladesh"
 };
-console.log(createUserProfile(userDls, userLcn));
+const createUserProfile = (User, MyLocation) => {
+    return `User name is: ${User?.name} from ${MyLocation?.city}`;
+};
+const accountHolder = {
+    name: "WalidurTanjim",
+    email: "walidur.tanjim@gmail.com"
+};
+const accountDetails = {
+    accountId: 1234567890,
+    accountType: "Savings",
+    balance: 50000
+};
+const combineUserAndAccount = (accountHolder, accountDetails) => {
+    return { ...accountHolder, ...accountDetails };
+};
+const myCompleteInfo = combineUserAndAccount(accountHolder, accountDetails);
+// console.log(myCompleteInfo)
